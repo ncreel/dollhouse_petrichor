@@ -1,0 +1,40 @@
+/* base page */
+body {
+	background-color: #ff0;
+}
+.games {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* dollhouse */
+.dialogue{
+  color: transparent;
+}
+
+
+.room {
+  width:300px;
+  height:300px;
+}
+
+.room:hover {
+  width:310px;
+  height:310px;
+}
+
+.roof {
+ width: 0;
+ height: 0;
+ border-left: 307px solid transparent;
+ border-right: 307px solid transparent;
+ border-bottom: 100px solid pink;
+}
+
+.house {
+  background-color: pink;
+  width:100%;
+}
